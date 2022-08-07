@@ -1,0 +1,8 @@
+/*
+Although I didn't install 'autoprefixer' plugin, 'postcss-preset-env' includes it.
+If you are in 'public/style.css', there will be '::-moz-placeholder'.
+*/
+
+::placeholder {
+  color: green;
+}
