@@ -1,10 +1,10 @@
 module.exports = {
   plugins: [
     // about 'postcss-import'
-    // This makes import other css files.
-    // Unlike general CSS @import,
-    // This shows the whole codes.
-    // We need this process because we have to change this file into the file we want.
+    // This makes one css file import other css files.
+    // Unlike general CSS '@import', this shows the whole codes.
+    // We need the whole codes
+    // because we have to change the importing file into the result file.
     // e.g.) src/style.css -> public/style.css
     require('postcss-import'),
 
